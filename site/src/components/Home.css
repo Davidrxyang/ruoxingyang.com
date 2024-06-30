@@ -1,0 +1,48 @@
+.Home {
+  padding: 10px; /* Reduced padding for the Home component */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 240px); /* Adjust height to consider header and footer height */
+}
+
+.Content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Center items vertically */
+  width: 80%; /* Adjust the width of the content container as needed */
+  max-width: 1200px;
+}
+
+.Box {
+  flex: 1;
+  padding: 10px; /* Reduced padding inside each box */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 50%; /* Ensure the boxes are equal width */
+  min-width: 50%; /* Ensure the boxes are equal width */
+  overflow: hidden; /* Hide overflow to ensure content stays within the box */
+}
+
+.ProfileImage {
+  width: 100%;
+  height: auto;
+  max-width: 250px; /* Adjust this value to make the image smaller */
+  max-height: 400px; /* Adjust this value to make the image smaller */
+  object-fit: contain; /* Ensure image stays within the box */
+}
+
+.Box p {
+  font-size: 20px; /* Increase font size */
+  line-height: 1.6; /* Increase line height for better readability */
+  text-align: left;
+  max-width: 300px; /* Ensure text box does not exceed image box width */
+  font-family: 'Arial', sans-serif; /* Change font family */
+  color: #333; /* Change text color for better contrast */
+  padding: 20px; /* Add padding around the text */
+  background-color: #f9f9f9; /* Add background color to the text box */
+  border-radius: 10px; /* Add rounded corners to the text box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a nicer look */
+}

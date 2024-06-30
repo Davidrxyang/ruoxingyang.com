@@ -1,0 +1,20 @@
+.Bio {
+  padding: 20px;
+  padding-bottom: 200px; /* Add a large padding to the bottom for scrollability */
+}
+
+.Bio h2 {
+  color: #282c34;
+}
+
+.Bio p {
+  font-size: 20px; /* Increase font size */
+  line-height: 1.6; /* Increase line height for better readability */
+  text-align: left;
+  font-family: 'Arial', sans-serif; /* Change font family */
+  color: #333; /* Change text color for better contrast */
+  padding: 20px; /* Add padding around the text */
+  background-color: #f9f9f9; /* Add background color to the text box */
+  border-radius: 10px; /* Add rounded corners to the text box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a nicer look */
+}
