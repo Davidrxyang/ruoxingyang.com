@@ -10,7 +10,7 @@ const Home: React.FC = () => {
           <img src={profileImage} alt="Profile" className="ProfileImage" />
         </div>
         <div className="Box">
-          <p>Hi, I am Ruoxing (David) Yang. Welcome to my personal website</p>
+          <p>Hi, I am Ruoxing (David) Yang. Welcome to my personal website.</p>
         </div>
       </div>
     </div>
@@ -18,3 +18,4 @@ const Home: React.FC = () => {
 }
 
 export default Home;
+
