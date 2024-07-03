@@ -83,7 +83,9 @@ const Hangman: React.FC = () => {
       />
       {isGameOver && <p className="game-over">Game Over! The word was "{word}".</p>}
       {isGameWon && <p className="game-won">Congratulations! You guessed the word.</p>}
-      <button onClick={resetGame}>Reset Game</button>
+      <div>
+        <button onClick={resetGame}>Reset Game</button>
+      </div>
     </div>
   );
 };
