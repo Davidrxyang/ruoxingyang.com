@@ -4,6 +4,6 @@
     align-items: flex-start;
     height: calc(100vh - 60px); /* Assuming header is 60px tall */
     background-color: #f0f0f0;
-    padding-top: 20px; /* Reduced padding */
+    padding-top: 0px; /* Reduced padding */
   }
   

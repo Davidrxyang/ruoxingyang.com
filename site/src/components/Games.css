@@ -3,7 +3,7 @@
   }
   
   .Games h1 {
-    font-size: 28px;
+    font-size: 35px;
     color: #333;
   }
   
@@ -17,6 +17,7 @@
   }
   
   .Games ul li a {
+    font-size: 30px;
     text-decoration: none;
     color: #007bff;
     transition: color 0.3s;
