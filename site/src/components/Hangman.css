@@ -1,0 +1,182 @@
+.hangman-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .word-display {
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  input[type="text"] {
+    font-size: 24px;
+    padding: 5px;
+    width: 30px;
+    text-align: center;
+  }
+  
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .game-over {
+    color: red;
+    font-size: 20px;
+  }
+  
+  .game-won {
+    color: green;
+    font-size: 20px;
+  }
+  
+  /* Game box styles */
+  .game-box {
+    width: 200px;
+    height: 250px;
+    border: 1px solid black;
+    margin: 0 auto 20px auto;
+    position: relative;
+  }
+  
+  /* Stick figure and gallows styles */
+  .stick-figure-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+  }
+  
+  .gallows {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallows .base,
+  .gallows .pole,
+  .gallows .beam,
+  .gallows .rope {
+    display: none;
+  }
+  
+  .gallows .visible {
+    display: block;
+  }
+  
+  .gallows .base {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    width: 60%;
+    height: 10px;
+    background-color: black;
+  }
+  
+  .gallows .pole {
+    position: absolute;
+    bottom: 10px;
+    left: 20%;
+    width: 10px;
+    height: 100%;
+    background-color: black;
+  }
+  
+  .gallows .beam {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    width: 60%;
+    height: 10px;
+    background-color: black;
+  }
+  
+  .gallows .rope {
+    position: absolute;
+    top: 10px;
+    left: 70%;
+    width: 3px;
+    height: 30px;
+    background-color: black;
+  }
+  
+  .stick-figure {
+    position: absolute;
+    top: 40px;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+  
+  .stick-figure .head,
+  .stick-figure .body,
+  .stick-figure .left-arm,
+  .stick-figure .right-arm,
+  .stick-figure .left-leg,
+  .stick-figure .right-leg {
+    display: none;
+  }
+  
+  .stick-figure .visible {
+    display: block;
+  }
+  
+  .stick-figure .head {
+    width: 30px;
+    height: 30px;
+    border: 3px solid black;
+    border-radius: 50%;
+  }
+  
+  .stick-figure .body {
+    width: 3px;
+    height: 50px;
+    background-color: black;
+    margin: 0 auto;
+  }
+  
+  .stick-figure .left-arm {
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+    transform-origin: top;
+  }
+  
+  .stick-figure .right-arm {
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transform-origin: top;
+  }
+  
+  .stick-figure .left-leg {
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%) rotate(-45deg);
+    transform-origin: top;
+  }
+  
+  .stick-figure .right-leg {
+    width: 3px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    transform-origin: top;
+  }
+  

@@ -1,0 +1,28 @@
+.Games {
+    padding: 20px;
+  }
+  
+  .Games h1 {
+    font-size: 28px;
+    color: #333;
+  }
+  
+  .Games ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .Games ul li {
+    margin: 10px 0;
+  }
+  
+  .Games ul li a {
+    text-decoration: none;
+    color: #007bff;
+    transition: color 0.3s;
+  }
+  
+  .Games ul li a:hover {
+    color: #0056b3;
+  }
+  
