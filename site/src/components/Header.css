@@ -1,25 +1,44 @@
 .Header {
-    background-color: #282c34;
-    padding: 20px;
-    color: white;
-  }
-  
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.Header h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.Header nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to a new line */
+  justify-content: center; /* Center items horizontally */
+  margin: 20px 0 0 0;
+}
+
+.Header nav ul li {
+  margin: 10px; /* Adjust spacing as needed */
+}
+
+.Header nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Header nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Media query to adjust the layout on smaller screens */
+@media (max-width: 600px) {
   .Header nav ul {
-    list-style: none;
-    padding: 0;
+    flex-direction: column; /* Stack items vertically on small screens */
   }
-  
+
   .Header nav ul li {
-    display: inline;
-    margin: 0 10px;
+    margin: 5px 0; /* Adjust spacing for vertical layout */
   }
-  
-  .Header nav ul li a {
-    color: white;
-    text-decoration: none;
-  }
-  
-  .Header nav ul li a:hover {
-    text-decoration: underline;
-  }
-  
+}

@@ -1,48 +1,92 @@
 .Home {
-  padding: 10px; /* Reduced padding for the Home component */
+  padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   height: calc(100vh - 240px); /* Adjust height to consider header and footer height */
+  overflow: hidden; /* Prevent content from overflowing */
 }
 
 .Content {
   display: flex;
   justify-content: space-between;
-  align-items: center; /* Center items vertically */
-  width: 80%; /* Adjust the width of the content container as needed */
+  align-items: center;
+  width: 80%;
   max-width: 1200px;
+  flex-wrap: wrap; /* Allow content to wrap on smaller screens */
 }
 
 .Box {
   flex: 1;
-  padding: 10px; /* Reduced padding inside each box */
+  padding: 10px;
   box-sizing: border-box;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 50%; /* Ensure the boxes are equal width */
-  min-width: 50%; /* Ensure the boxes are equal width */
-  overflow: hidden; /* Hide overflow to ensure content stays within the box */
+  max-width: 50%;
+  min-width: 50%;
+  overflow: hidden;
 }
 
 .ProfileImage {
   width: 100%;
   height: auto;
-  max-width: 250px; /* Adjust this value to make the image smaller */
-  max-height: 400px; /* Adjust this value to make the image smaller */
-  object-fit: contain; /* Ensure image stays within the box */
+  max-width: 250px;
+  max-height: 400px;
+  object-fit: contain;
 }
 
 .Box p {
-  font-size: 20px; /* Increase font size */
-  line-height: 1.6; /* Increase line height for better readability */
+  font-size: 20px;
+  line-height: 1.6;
   text-align: left;
-  max-width: 400px; /* Ensure text box does not exceed image box width */
-  font-family: 'Arial', sans-serif; /* Change font family */
-  color: #ffffff; /* Change text color for better contrast */
-  padding: 20px; /* Add padding around the text */
-  background-color: #3e607c; /* Add background color to the text box */
-  border-radius: 10px; /* Add rounded corners to the text box */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow for a nicer look */
+  max-width: 400px;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff;
+  padding: 20px;
+  background-color: #3e607c;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .Content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Box {
+    max-width: 100%;
+    min-width: 100%;
+  }
+
+  .ProfileImage {
+    max-width: 200px;
+    max-height: 300px;
+  }
+
+  .Box p {
+    max-width: 100%;
+  }
+}
+
+@media (max-height: 600px) {
+  .Home {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+
+  .Content {
+    flex-direction: column;
+  }
+
+  .ProfileImage {
+    max-width: 200px;
+    max-height: 300px;
+  }
+
+  .Box p {
+    max-width: 100%;
+  }
 }
