@@ -3,6 +3,7 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #d1d4bba9;
 }
 
 .App {
@@ -18,3 +19,5 @@ body {
 .Home {
   padding: 20px;
 }
+
+

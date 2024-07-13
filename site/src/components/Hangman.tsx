@@ -4,7 +4,8 @@ import './Hangman.css';
 const words = [
   'react', 'typescript', 'hangman', 'component', 'state', 'props', 'hooks',
   'context', 'reducer', 'effect', 'memo', 'callback', 'javascript', 'array',
-  'object', 'function', 'variable', 'closure', 'promise', 'async'
+  'object', 'function', 'variable', 'closure', 'promise', 'async', 'wedding',
+  'beer', 'wine', 'whiskey', 'vodka', 'rum', 'tequila', 'gin', 'brandy', 'cognac',
 ];
 
 const getRandomWord = () => {

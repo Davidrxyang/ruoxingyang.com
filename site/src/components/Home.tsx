@@ -10,7 +10,11 @@ const Home: React.FC = () => {
           <img src={profileImage} alt="Profile" className="ProfileImage" />
         </div>
         <div className="Box">
-          <p>Hi, I am Ruoxing (David) Yang. Welcome to my personal website.</p>
+          <p>
+            Hi, I am Ruoxing (David) Yang. Welcome to my personal website.
+            This project was created using React.js and Typescript with some
+            help from ChatGPT. It is deployed on AWS.
+          </p>
         </div>
       </div>
     </div>
