@@ -45,7 +45,8 @@ const Bio: React.FC = () => {
       </a>
       </p>
       <p>
-        I also play guitar for the official Georgetown University Jazz Ensemble, as well as trumpet for the Georgetown Pep Band. You might also find me in the pit band for various theatre productions.
+        I also play guitar for the official Georgetown University Jazz Ensemble, as well as trumpet for the Georgetown Pep Band. You might also find me in the pit band for various theatre productions. 
+        In 2024, I am music directing the musical "Everybody's Talking About Jamie" at Georgetown University.
       </p>
     </div>
   );
