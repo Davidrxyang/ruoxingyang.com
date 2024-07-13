@@ -1,0 +1,41 @@
+.WeatherPage {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 80px; /* Adjust this value to fine-tune the position */
+    background: #ffffff; /* Set background to white */
+    color: #000; /* Change text color to black for better contrast on white background */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  .WeatherCard {
+    background: #2980b9; /* Set card background to blue */
+    color: #fff; /* Set text color inside the card to white */
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    width: 300px;
+  }
+  
+  .WeatherInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .WeatherIcon img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .WeatherDetails {
+    text-align: left;
+  }
+  
+  .loading, .error {
+    color: #000; /* Change loading and error text color to black */
+    font-size: 24px;
+  }
+  

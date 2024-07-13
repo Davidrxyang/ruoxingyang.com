@@ -6,9 +6,11 @@ const Games: React.FC = () => {
   return (
     <div className="Games">
       <h1>Games</h1>
-      <ul>
-        <li><Link to="/games/hangman">Hangman</Link></li>
-        {/* Add more game links here */}
+      <ul className="game-list">
+        <li className="game-item">
+          <Link to="/games/hangman" className="game-link">Hangman</Link>
+        </li>
+        {/* Add more games links here */}
       </ul>
     </div>
   );
