@@ -4,7 +4,7 @@
     align-items: flex-start;
     min-height: 100vh;
     padding-top: 80px; /* Adjust this value to fine-tune the position */
-    background: #ffffff; /* Set background to white */
+    background-color: #78bbe7;
     color: #000; /* Change text color to black for better contrast on white background */
     font-family: 'Arial', sans-serif;
     text-align: center;
