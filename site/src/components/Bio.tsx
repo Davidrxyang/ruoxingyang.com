@@ -9,12 +9,23 @@ const Bio: React.FC = () => {
         I am currently a student at Georgetown University studying Computer Science and Economics with a minor in Mathematics. I am passionate about computer science research and software engineering. Apart from my projects, I spend my free time playing and performing music. 
       </p>
 
+      <h2>Resume</h2>
+      <p>
+        Find my resume here: 
+        <a href="https://drive.google.com/file/d/15RSLemHbxJmbeQeUBFjFvJ2niNNIefHY/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ResumeLink">
+        (link)
+        </a>
+      </p>
+
       <h2>Research</h2>
       <p>
         My research covers algorithmic improvements to public transportation systems and algorithmic analysis of network security models such as decentralized message passing algorithms. 
       </p>
       <p>
         I am currently working on a collaborative research project as a Lisa J. Raines Research Fellow at Georgetown. 
+        <a href="https://drive.google.com/file/d/1NkiUrjfUEJP1kngbxvybQKuNVNAk3KwS/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ProposalLink">
+        (link to proposal)
+      </a>
       </p>
       <p>
         I am also a member of the Georgetown SecLab, working under Professor Micah Sherr on the Cadence project, a simulator for decentralized message passing algorithms.
