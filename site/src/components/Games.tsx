@@ -10,7 +10,9 @@ const Games: React.FC = () => {
         <li className="game-item">
           <Link to="/games/hangman" className="game-link">Hangman</Link>
         </li>
-        {/* Add more games links here */}
+        <li className="game-item">
+          <Link to="/games/tictactoe" className="game-link">Tic Tac Toe</Link>
+        </li>
       </ul>
     </div>
   );

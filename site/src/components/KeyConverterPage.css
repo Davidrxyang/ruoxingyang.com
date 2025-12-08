@@ -1,0 +1,10 @@
+.key-converter-page {
+  display: flex;
+  justify-content: center;   /* center horizontally */
+  align-items: center;       /* center vertically */
+  min-height: calc(100vh - 60px); /* full screen space under header */
+  width: 100%;
+  background-color: #d1d4bba9;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}

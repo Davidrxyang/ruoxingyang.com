@@ -1,0 +1,92 @@
+.tictactoe-container {
+  display: flex;
+  flex-direction: column; /* Ensures button is ALWAYS below */
+  align-items: center;    /* Center everything horizontally */
+  text-align: center;
+  padding: 20px;
+}
+
+
+.tictactoe-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.tictactoe-subtitle {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.tictactoe-status {
+  font-size: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: #3e607c;
+}
+
+.ttt-board {
+  display: inline-block;
+  border: 4px solid #3e607c;
+  border-radius: 8px;
+  background-color: #f8f9fa;
+  padding: 5px;
+  margin-bottom: 20px; /* <-- ensures button appears below */
+}
+
+
+.ttt-row {
+  display: flex;
+}
+
+.ttt-square {
+  width: 80px;
+  height: 80px;
+  border: 2px solid #3e607c;
+  background-color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.ttt-square:hover {
+  background-color: #e3edf5;
+  transform: scale(1.03);
+}
+
+.ttt-square:active {
+  transform: scale(0.97);
+}
+
+.tictactoe-reset {
+  margin-top: 20px;
+  padding: 10px 24px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 2px solid #3e607c;
+  background-color: #3e607c;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s, transform 0.2s;
+}
+
+.tictactoe-reset:hover {
+  background-color: #fff;
+  color: #3e607c;
+  transform: scale(1.05);
+}
+
+.tictactoe-reset:active {
+  transform: scale(0.97);
+}
+
+@media (max-width: 480px) {
+  .ttt-square {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+  }
+}

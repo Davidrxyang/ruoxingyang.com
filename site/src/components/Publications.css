@@ -1,0 +1,31 @@
+.Publications {
+  padding: 20px;
+  padding-bottom: 100px; /* ⬅️ Added so bottom isn't cut off */
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #d1d4bba9;
+  border-radius: 10px;
+  box-sizing: border-box; /* Ensures padding doesn't mess layout */
+}
+
+.Publications h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+  color: #333;
+}
+
+.pub-entry {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-left: 5px solid #3e607c;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.45;
+}
+
+.pub-entry strong {
+  color: #3e607c;
+}

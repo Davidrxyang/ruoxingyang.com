@@ -1,0 +1,10 @@
+.tictactoe-page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* don’t vertically center — allow height growth */
+  min-height: calc(100vh - 60px); /* allow growth */
+  background-color: #d1d4bba9;
+  padding: 40px 20px 200px; /* more breathing room */
+  box-sizing: border-box;
+  overflow-y: auto; /* allows scrolling if needed */
+}

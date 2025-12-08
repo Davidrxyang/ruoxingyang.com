@@ -8,7 +8,7 @@ const Contact: React.FC = () => {
       <p>Reach Me: </p>
       <p>
         <p>
-        Email: davidruoxingyang@gmail.com
+        Email: davidrxyang@hotmail.com
         </p>
         <p>
         <a href="https://www.linkedin.com/in/ruoxing-yang-527304228/" target="_blank" rel="noopener noreferrer" className="LinkedInLink">
