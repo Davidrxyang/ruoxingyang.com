@@ -6,7 +6,7 @@ const Bio: React.FC = () => {
     <div className="Bio">
       <h2>About Me</h2>
       <p>
-        I am currently a student at Georgetown University studying Computer Science and Economics with a minor in Mathematics. I am passionate about computer science research and software engineering. Apart from my projects, I spend my free time playing and performing music. 
+        I am a student and researcher at Georgetown University studying Computer Science with minors in Mathematics and Economics. I am passionate about network security, differential privacy, and secure machine learning. Apart from my research projects, I spend my free time playing and performing music. 
       </p>
 
       <h2>Resume</h2>
@@ -19,16 +19,10 @@ const Bio: React.FC = () => {
 
       <h2>Research</h2>
       <p>
-        My research covers algorithmic improvements to public transportation systems and algorithmic analysis of network security models such as decentralized message passing algorithms. 
+        My main research covers network security, especially involving decentralized message-passing routing algorithms through HumaNets. I am interested in investigating ways to add security to distributed systems. I am also interested in quantifying privacy through the differential privacy framework. I have experience studying secure machine learning through differentially-private fine-tuning.
       </p>
       <p>
-        I am currently working on a collaborative research project as a Lisa J. Raines Research Fellow at Georgetown. 
-        <a href="https://drive.google.com/file/d/1NkiUrjfUEJP1kngbxvybQKuNVNAk3KwS/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ProposalLink">
-        (link to proposal)
-      </a>
-      </p>
-      <p>
-        I am also a member of the Georgetown SecLab, working under Professor Micah Sherr on the Cadence project, a simulator for decentralized message passing algorithms.
+        I am a member of the Georgetown SecLab working under Professor Micah Sherr. I am the lead software developer for the Cadence project, a simulator for decentralized message passing algorithms. I am currently designing a secure push-notifications system leveraging a distributed file system network.
       </p>
 
       <h2>Projects</h2>
@@ -45,7 +39,7 @@ const Bio: React.FC = () => {
 
       <h2>Teaching</h2>
       <p>
-        I am a Teaching Assistant for the Computer Science and Economics departments at Georgetown University. I am currently teaching Data Structures and Principles of Microeconomics. My past teaching experience includes Computer Science 1 and Computer Science 2.
+        I am a Teaching Assistant for the Computer Science and Economics departments at Georgetown University. I am currently teaching Data Structures, Algorithms, and Artificial Intelligence. My past teaching experience includes Computer Science 1 and Computer Science 2.
       </p>
 
       <h2>Music</h2>
@@ -56,8 +50,11 @@ const Bio: React.FC = () => {
       </a>
       </p>
       <p>
+      	I am the singer, guitarist, and lead songwriter for "Hieroglyph". We will be releasing music soon!
+      </p>
+      <p>
         I also play guitar for the official Georgetown University Jazz Ensemble, as well as trumpet for the Georgetown Pep Band. You might also find me in the pit band for various theatre productions. 
-        In 2024, I am music directing the musical "Everybody's Talking About Jamie" at Georgetown University.
+        In 2024, I music-directed the musical "Everybody's Talking About Jamie" at Georgetown University.
       </p>
     </div>
   );

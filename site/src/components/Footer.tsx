@@ -4,7 +4,7 @@ import './Footer.css';
 const Footer: React.FC = () => {
   return (
     <footer className="Footer">
-      <p>&copy; 2024 Ruoxing Yang, All Rights Reserved</p>
+      <p>&copy; 2025 Ruoxing Yang, All Rights Reserved</p>
     </footer>
   );
 }
