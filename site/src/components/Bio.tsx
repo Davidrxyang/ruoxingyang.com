@@ -12,7 +12,7 @@ const Bio: React.FC = () => {
       <h2>Resume</h2>
       <p>
         Find my resume here: 
-        <a href="https://drive.google.com/file/d/15RSLemHbxJmbeQeUBFjFvJ2niNNIefHY/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ResumeLink">
+        <a href="https://drive.google.com/file/d/1KEFZvrRPycsojyXZb97-cJM_JMWdDKGq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ResumeLink">
         (link)
         </a>
       </p>
@@ -43,12 +43,6 @@ const Bio: React.FC = () => {
       </p>
 
       <h2>Music</h2>
-      <p>
-        I am the drummer for the shoegaze band Araujia. Check us out on spotify!     
-      <a href="https://open.spotify.com/artist/7jjxND0ZjxZsOEEX6pWr7A" target="_blank" rel="noopener noreferrer" className="SpotifyLink">
-        (spotify)
-      </a>
-      </p>
       <p>
       	I am the singer, guitarist, and lead songwriter for "Hieroglyph". We will be releasing music soon!
       </p>
