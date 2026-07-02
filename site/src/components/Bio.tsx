@@ -49,7 +49,8 @@ const Bio: React.FC = () => {
       <p>
         I also played guitar for the official Georgetown University Jazz Ensemble, as well as trumpet for the Georgetown Pep Band. You might also find me in the pit band for various theatre productions. 
         In 2024, I music-directed the musical "Everybody's Talking About Jamie" at Georgetown University.
-
+      </p>
+      <p>
         Theatre credits: Heathers (drums), A Night of Musical Scenes (drums), Sweeney Todd (trumpet), Nomadic Theatre Miscast (various roles), Everybody's Talking About Jamie (music director), Autumn Leaves (drums), Pippin (guitar), No Pressure (drums), Into the Woods (trumpet)
       </p>
     </div>
