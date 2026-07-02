@@ -6,13 +6,13 @@ const Bio: React.FC = () => {
     <div className="Bio">
       <h2>About Me</h2>
       <p>
-        I am a student and researcher at Georgetown University studying Computer Science with minors in Mathematics and Economics. I am passionate about network security, differential privacy, and secure machine learning. Apart from my research projects, I spend my free time playing and performing music. 
+        I am an incoming Computer Science Ph.D. Student at the University of Virginia. My research focuses on computer networks, network simulation, and computer security. I am also interested in secure machine learning and differential privacy. In May 2026, I graduated from Georgetown University with a B.S. in Computer Science and minors in Mathematics and Economics, Hoya Saxa! 
       </p>
 
       <h2>Resume</h2>
       <p>
         Find my resume here: 
-        <a href="https://drive.google.com/file/d/1KEFZvrRPycsojyXZb97-cJM_JMWdDKGq/view?usp=sharing" target="_blank" rel="noopener noreferrer" className="ResumeLink">
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="ResumeLink">
         (link)
         </a>
       </p>
@@ -39,16 +39,18 @@ const Bio: React.FC = () => {
 
       <h2>Teaching</h2>
       <p>
-        I am a Teaching Assistant for the Computer Science and Economics departments at Georgetown University. I am currently teaching Data Structures, Algorithms, and Artificial Intelligence. My past teaching experience includes Computer Science 1 and Computer Science 2.
+        My teaching experience includes being a teaching assistant for Artificial Intelligence, Data Structures, Algorithms, Computer Science 1, Computer Science 2, Principles of Microeconomics
       </p>
 
       <h2>Music</h2>
       <p>
-      	I am the singer, guitarist, and lead songwriter for "Hieroglyph". We will be releasing music soon!
+        In my free time, I am an avid hobby musician! Check out <a href="https://open.spotify.com/artist/75PZcBImwZtexzCYVMD1Nl" target="_blank" rel="noopener noreferrer" className="ResumeLink">Hieroglyph</a> and <a href="https://open.spotify.com/artist/7jjxND0ZjxZsOEEX6pWr7A" target="_blank" rel="noopener noreferrer" className="ResumeLink">Araujia</a>
       </p>
       <p>
-        I also play guitar for the official Georgetown University Jazz Ensemble, as well as trumpet for the Georgetown Pep Band. You might also find me in the pit band for various theatre productions. 
+        I also played guitar for the official Georgetown University Jazz Ensemble, as well as trumpet for the Georgetown Pep Band. You might also find me in the pit band for various theatre productions. 
         In 2024, I music-directed the musical "Everybody's Talking About Jamie" at Georgetown University.
+
+        Theatre credits: Heathers (drums), A Night of Musical Scenes (drums), Sweeney Todd (trumpet), Nomadic Theatre Miscast (various roles), Everybody's Talking About Jamie (music director), Autumn Leaves (drums), Pippin (guitar), No Pressure (drums), Into the Woods (trumpet)
       </p>
     </div>
   );
