@@ -44,7 +44,7 @@ const Bio: React.FC = () => {
 
       <h2>Music</h2>
       <p>
-        In my free time, I am an avid hobby musician! I played music with various student groups associated with Georgetown University, participating in university programs such as the Jazz Ensemble, Guild of Bands, Pep Band, and co-curricular theatre. Check out <a href="https://open.spotify.com/artist/75PZcBImwZtexzCYVMD1Nl" target="_blank" rel="noopener noreferrer" className="ResumeLink">Hieroglyph</a> and <a href="https://open.spotify.com/artist/7jjxND0ZjxZsOEEX6pWr7A" target="_blank" rel="noopener noreferrer" className="ResumeLink">Araujia</a>
+        In my free time, I am an avid hobby musician! I play music with various student groups associated with Georgetown University, participating in university programs such as the Jazz Ensemble, Guild of Bands, Pep Band, and co-curricular theatre. Check out <a href="https://open.spotify.com/artist/75PZcBImwZtexzCYVMD1Nl" target="_blank" rel="noopener noreferrer" className="ResumeLink">Hieroglyph</a> and <a href="https://open.spotify.com/artist/7jjxND0ZjxZsOEEX6pWr7A" target="_blank" rel="noopener noreferrer" className="ResumeLink">Araujia</a>
       </p>
       <p>
         I played guitar for the official Georgetown University Jazz Ensemble, as well as trumpet for the Georgetown Pep Band. You might also find me in the pit band for various theatre productions. 
