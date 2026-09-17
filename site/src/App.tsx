@@ -14,7 +14,6 @@ import HangmanPage from './components/HangmanPage';
 import TicTacToePage from './components/TicTacToePage';
 
 import Tools from './components/Tools';
-import WeatherPage from './components/WeatherPage';
 import CalculatorPage from './components/CalculatorPage';
 import KeyConverterPage from './components/KeyConverterPage';
 
@@ -38,7 +37,6 @@ const App: React.FC = () => {
 
           {/* Tools */}
           <Route path="/tools" element={<Tools />} />
-          <Route path="/tools/weather" element={<WeatherPage />} />
           <Route path="/tools/calculator" element={<CalculatorPage />} />
           <Route path="/tools/key-converter" element={<KeyConverterPage />} />
         </Routes>

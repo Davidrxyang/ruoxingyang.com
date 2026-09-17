@@ -8,11 +8,6 @@ const Tools: React.FC = () => {
       <h1>Tools</h1>
       <ul className="tool-list">
         <li className="tool-item">
-          <Link to="/tools/weather" className="tool-link">
-            Weather
-          </Link>
-        </li>
-        <li className="tool-item">
           <Link to="/tools/calculator" className="tool-link">
             Calculator
           </Link>
